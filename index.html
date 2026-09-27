@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Incraft — Hand-Poured Candles</title>
+  <meta name="description" content="Incraft is a small-batch candle atelier. Hand-poured scented jars, sculpted pillars, dinner tapers and votives made with coconut-soy wax and fine fragrance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 6c6 10 12 17 12 26a12 12 0 0 1-24 0c0-9 6-16 12-26z' fill='%23c9a46a'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Announcement -->
+  <div class="announce">
+    <div class="announce__track">
+      <span>Autumn Collection now pouring</span><span>✦</span>
+      <span>Complimentary wick trimmer with every gift set</span><span>✦</span>
+      <span>Hand-poured in small batches of forty-eight</span><span>✦</span>
+      <span>Autumn Collection now pouring</span><span>✦</span>
+      <span>Complimentary wick trimmer with every gift set</span><span>✦</span>
+      <span>Hand-poured in small batches of forty-eight</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="nav" id="nav">
+    <nav class="nav__inner">
+      <ul class="nav__links nav__links--left">
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#scents">Scent Library</a></li>
+        <li><a href="#atelier">Atelier</a></li>
+      </ul>
+      <a href="#top" class="logo" aria-label="Incraft home">
+        <img src="assets/incraft-logo.png" alt="Incraft" width="541" height="196">
+      </a>
+      <ul class="nav__links nav__links--right">
+        <li><a href="#ritual">The Ritual</a></li>
+        <li><a href="#bespoke">Bespoke</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#collection">Collection</a>
+    <a href="#scents">Scent Library</a>
+    <a href="#atelier">Atelier</a>
+    <a href="#ritual">The Ritual</a>
+    <a href="#bespoke">Bespoke</a>
+    <a href="#visit">Visit</a>
+  </div>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__media">
+        <img src="https://images.unsplash.com/photo-1605101600616-a8c6db5b98aa?w=2400&q=80&auto=format&fit=crop" alt="Pillar candles glowing among dark foliage" fetchpriority="high">
+      </div>
+      <div class="hero__veil"></div>
+      <div class="hero__content">
+        <p class="eyebrow reveal">Maison de Bougies · Est. 2014</p>
+        <h1 class="hero__title">
+          <span class="line"><span>The quiet art</span></span>
+          <span class="line"><span>of <em>slow light</em></span></span>
+        </h1>
+        <p class="hero__lede reveal">Candles poured by hand in small batches, scented with fine perfumery oils and made to be lingered over.</p>
+        <div class="hero__actions reveal">
+          <a href="#collection" class="btn btn--gold">Explore the Collection</a>
+          <a href="#atelier" class="btn btn--ghost">Our Atelier</a>
+        </div>
+      </div>
+      <a href="#intro" class="hero__scroll" aria-label="Scroll down">
+        <span>Scroll</span><i></i>
+      </a>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro" id="intro">
+      <div class="container intro__grid">
+        <p class="intro__num reveal">01</p>
+        <div>
+          <h2 class="display reveal">We make candles the way a perfumer makes a fragrance: <em>slowly</em>, by hand, and never in a hurry.</h2>
+          <div class="stats reveal">
+            <div><strong data-count="60">0</strong><span>hour burn time</span></div>
+            <div><strong data-count="48">0</strong><span>candles per batch</span></div>
+            <div><strong data-count="100">0</strong><span>% cotton &amp; wood wicks</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Four Forms</p>
+          <h2 class="display">Shop by kind</h2>
+        </div>
+        <div class="cat-grid">
+          <a href="#collection" class="cat reveal" data-jump="jar">
+            <img src="https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?w=900&q=80&auto=format&fit=crop" alt="Two amber glass candle jars" loading="lazy">
+            <div class="cat__label"><span>I</span><h3>Scented Jars</h3><p>Perfumed vessels</p></div>
+          </a>
+          <a href="#collection" class="cat reveal" data-jump="pillar">
+            <img src="https://images.unsplash.com/photo-1604449387214-e4672cd87563?w=900&q=80&auto=format&fit=crop" alt="White pillar candles with pine cone" loading="lazy">
+            <div class="cat__label"><span>II</span><h3>Pillars</h3><p>Sculpted &amp; unscented</p></div>
+          </a>
+          <a href="#collection" class="cat reveal" data-jump="taper">
+            <img src="https://images.unsplash.com/photo-1545666215-c5fbc4a9f4fd?w=900&q=80&auto=format&fit=crop" alt="Tall white taper candles" loading="lazy">
+            <div class="cat__label"><span>III</span><h3>Tapers</h3><p>For the dinner table</p></div>
+          </a>
+          <a href="#collection" class="cat reveal" data-jump="votive">
+            <img src="https://images.unsplash.com/photo-1663089889826-0575c6ae19de?w=900&q=80&auto=format&fit=crop" alt="Votive candle in a glass jar" loading="lazy">
+            <div class="cat__label"><span>IV</span><h3>Votives</h3><p>Small, precious glow</p></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection -->
+    <section class="collection" id="collection">
+      <div class="container">
+        <div class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">The Collection</p>
+            <h2 class="display">Autumn / Winter <em>edition</em></h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="Filter candles">
+            <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="filter" data-filter="jar" role="tab" aria-selected="false">Jars</button>
+            <button class="filter" data-filter="pillar" role="tab" aria-selected="false">Pillars</button>
+            <button class="filter" data-filter="taper" role="tab" aria-selected="false">Tapers</button>
+            <button class="filter" data-filter="votive" role="tab" aria-selected="false">Votives</button>
+          </div>
+        </div>
+        <div class="products" id="products"></div>
+      </div>
+    </section>
+
+    <!-- Editorial -->
+    <section class="editorial">
+      <div class="editorial__media parallax" data-speed="0.15">
+        <img src="https://images.unsplash.com/photo-1601479604588-68d9e6d386b5?w=2400&q=80&auto=format&fit=crop" alt="Cluster of lit pillar candles at golden hour" loading="lazy">
+      </div>
+      <div class="editorial__quote">
+        <p class="eyebrow reveal">A note from the atelier</p>
+        <blockquote class="reveal">“A candle is the only object in the home that asks you to <em>stay</em>.”</blockquote>
+        <cite class="reveal">Hélène Marchand, Founder &amp; Nose</cite>
+      </div>
+    </section>
+
+    <!-- Scent library -->
+    <section class="scents" id="scents">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Scent Library</p>
+          <h2 class="display">Find your <em>note</em></h2>
+          <p class="section-sub">Each fragrance is built in three movements: bright top notes, a warm heart and a base that lingers after the flame is out.</p>
+        </div>
+        <div class="scents__wrap">
+          <div class="scent-tabs" role="tablist" aria-label="Scent families">
+            <button class="scent-tab is-active" data-family="woody" role="tab" aria-selected="true"><span>01</span>Woody &amp; Smoke</button>
+            <button class="scent-tab" data-family="citrus" role="tab" aria-selected="false"><span>02</span>Citrus &amp; Herb</button>
+            <button class="scent-tab" data-family="amber" role="tab" aria-selected="false"><span>03</span>Amber &amp; Resin</button>
+            <button class="scent-tab" data-family="floral" role="tab" aria-selected="false"><span>04</span>Soft Floral</button>
+          </div>
+          <div class="scent-panel">
+            <div class="scent-panel__img"><img id="scentImg" src="" alt=""></div>
+            <div class="scent-panel__body">
+              <h3 id="scentTitle"></h3>
+              <p id="scentDesc"></p>
+              <div class="pyramid" id="scentPyramid"></div>
+              <a href="#collection" class="link-arrow" id="scentLink">View candle <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Atelier -->
+    <section class="atelier" id="atelier">
+      <div class="container atelier__grid">
+        <div class="atelier__images">
+          <figure class="atelier__img atelier__img--a reveal"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&q=80&auto=format&fit=crop" alt="Perfume oil being dropped onto a hand" loading="lazy"></figure>
+          <figure class="atelier__img atelier__img--b reveal"><img src="https://images.unsplash.com/photo-1570823635306-250abb06d4b3?w=1000&q=80&auto=format&fit=crop" alt="Hands cupping a lit candle" loading="lazy"></figure>
+        </div>
+        <div class="atelier__text">
+          <p class="eyebrow reveal">The Atelier</p>
+          <h2 class="display reveal">Made by hand,<br><em>one pour</em> at a time</h2>
+          <p class="reveal">Our studio sits in a converted cooperage where every candle is still poured, cured and finished by hand. We blend a clean coconut-soy wax, perfume it with oils from Grasse, and leave each batch to cure for fourteen days before it's ready.</p>
+          <ul class="pillars">
+            <li class="reveal"><span>i.</span><div><h4>Clean-burning wax</h4><p>Coconut and soy, free from paraffin and synthetic dyes.</p></div></li>
+            <li class="reveal"><span>ii.</span><div><h4>Perfumery-grade oils</h4><p>Up to 12% fragrance load for an even throw that fills the room.</p></div></li>
+            <li class="reveal"><span>iii.</span><div><h4>Vessels for keeping</h4><p>Mouth-blown glass and stoneware worth keeping once the candle is finished.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ritual -->
+    <section class="ritual" id="ritual">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow">The Ritual</p>
+          <h2 class="display">Care for your <em>candle</em></h2>
+        </div>
+        <ol class="ritual__steps">
+          <li class="reveal">
+            <span class="ritual__n">I</span>
+            <h4>The first burn</h4>
+            <p>Let the wax melt all the way to the edge on the first light, usually two to three hours. This sets its memory and prevents tunnelling.</p>
+          </li>
+          <li class="reveal">
+            <span class="ritual__n">II</span>
+            <h4>Trim the wick</h4>
+            <p>Trim to 5mm before each lighting for a calm, clean flame and no soot on the glass.</p>
+          </li>
+          <li class="reveal">
+            <span class="ritual__n">III</span>
+            <h4>Extinguish gently</h4>
+            <p>Use a snuffer or dip the wick into the melted wax. This keeps the smoke away and the fragrance intact.</p>
+          </li>
+          <li class="reveal">
+            <span class="ritual__n">IV</span>
+            <h4>Keep the vessel</h4>
+            <p>Once finished, warm the glass, lift out the remaining wax and keep the vessel for flowers, brushes or treasures.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="voices">
+      <div class="container">
+        <p class="eyebrow reveal">In their words</p>
+        <div class="voices__slider">
+          <figure class="voice is-active">
+            <blockquote>“Bergamot &amp; Fig fills my whole apartment without being loud about it. It smells like a garden at the end of summer.”</blockquote>
+            <figcaption>Amélie R. · Paris</figcaption>
+          </figure>
+          <figure class="voice">
+            <blockquote>“The tapers burned for an entire dinner party without a single drip. Guests asked where they came from.”</blockquote>
+            <figcaption>James O. · London</figcaption>
+          </figure>
+          <figure class="voice">
+            <blockquote>“The glass is so beautiful that I kept every one. My bathroom shelf is now a small Incraft museum.”</blockquote>
+            <figcaption>Priya S. · New York</figcaption>
+          </figure>
+        </div>
+        <div class="voices__dots" role="tablist" aria-label="Testimonials">
+          <button class="is-active" aria-label="Testimonial 1"></button>
+          <button aria-label="Testimonial 2"></button>
+          <button aria-label="Testimonial 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bespoke -->
+    <section class="bespoke" id="bespoke">
+      <div class="bespoke__media parallax" data-speed="0.1">
+        <img src="https://images.unsplash.com/photo-1665124197613-ffbb755f4ac2?w=2000&q=80&auto=format&fit=crop" alt="Candle beside a perfume bottle" loading="lazy">
+      </div>
+      <div class="bespoke__card reveal">
+        <p class="eyebrow">Bespoke &amp; Gifting</p>
+        <h2 class="display">A scent <em>of your own</em></h2>
+        <p>Work with our perfumer to create a signature fragrance for a wedding, a hotel lobby or a gift that will be remembered. Hand-engraved vessels, custom wax colours and private labels are available.</p>
+        <a href="#visit" class="btn btn--gold">Request a consultation</a>
+      </div>
+    </section>
+
+    <!-- Gallery strip -->
+    <section class="strip" aria-label="Incraft moments">
+      <div class="strip__track">
+        <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1616627561950-9f746e330187?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1613068431228-8cb6a1e92573?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1549877696-a46dda28ffa8?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1529684991332-3e055de04091?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1616627561950-9f746e330187?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1613068431228-8cb6a1e92573?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1549877696-a46dda28ffa8?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1529684991332-3e055de04091?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=700&q=75&auto=format&fit=crop" alt="" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Visit / Newsletter -->
+    <section class="visit" id="visit">
+      <div class="container visit__grid">
+        <div class="reveal">
+          <p class="eyebrow">Visit the Maison</p>
+          <h2 class="display">Come smell them <em>in person</em></h2>
+          <div class="boutiques">
+            <div>
+              <h4>Paris</h4>
+              <p>14 Rue de Turenne<br>75004 · Le Marais</p>
+              <p class="muted">Tue–Sat · 11h–19h</p>
+            </div>
+            <div>
+              <h4>London</h4>
+              <p>22 Lamb's Conduit St<br>WC1N · Bloomsbury</p>
+              <p class="muted">Mon–Sat · 10am–6pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="letter reveal">
+          <h3>The Incraft Letter</h3>
+          <p>Seasonal releases, studio notes and first access to limited pours. Sent four times a year.</p>
+          <form class="letter__form" id="letterForm">
+            <label class="sr-only" for="email">Email address</label>
+            <input type="email" id="email" placeholder="Your email address" required>
+            <button type="submit" class="btn btn--gold">Subscribe</button>
+          </form>
+          <p class="letter__msg" id="letterMsg" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#top" class="logo logo--lg" aria-label="Incraft home">
+          <img src="assets/incraft-logo.png" alt="Incraft" width="541" height="196">
+        </a>
+        <div class="footer__cols">
+          <div><h5>Collection</h5><a href="#collection">Scented Jars</a><a href="#collection">Pillars</a><a href="#collection">Tapers</a><a href="#collection">Votives</a></div>
+          <div><h5>Maison</h5><a href="#atelier">Atelier</a><a href="#scents">Scent Library</a><a href="#ritual">Candle Care</a><a href="#bespoke">Bespoke</a></div>
+          <div><h5>Follow</h5><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">Journal</a></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Incraft Candle Atelier</p>
+        <p class="muted">Photography courtesy of Unsplash</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product detail modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="modal__close" data-close aria-label="Close">×</button>
+      <div class="modal__img"><img id="mImg" src="" alt=""></div>
+      <div class="modal__body">
+        <p class="eyebrow" id="mKind"></p>
+        <h3 id="mTitle"></h3>
+        <p class="modal__price" id="mPrice"></p>
+        <p id="mDesc"></p>
+        <div class="pyramid" id="mNotes"></div>
+        <dl class="specs" id="mSpecs"></dl>
+        <a href="#visit" class="btn btn--gold" data-close>Find in boutique</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
